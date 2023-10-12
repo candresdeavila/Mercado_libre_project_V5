@@ -727,8 +727,9 @@ function filter() {
     const productList = getProductList(items);
     //4. re pinta la nueva lista de productos en el DOM
     document.getElementById("products").innerHTML = productList;
+    const filterItem = document.getElementById("filter-item");
+    filterItem.remove(); 
   }
-
   clearFilterBtn.addEventListener("click", clearCb);
 }
 
