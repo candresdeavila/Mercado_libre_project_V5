@@ -1,0 +1,47 @@
+#app{
+  background: white;
+}
+
+#image {
+  max-width: 1024px;
+  height: auto;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: italic;  
+}
+
+#tags {
+  font-size: 70%;
+  border-radius: 40px;
+  height: auto;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.line {
+  background-color:white 1px solid;
+  height: 2px;
+  max-width: 95%;
+  color: grey;
+  margin-top: 2rem;
+}
+
+
+
+/*******************************************
+********************************************
+    SIDEBAR STYLE
+********************************************
+********************************************/
+
+
+.filter-card {
+  background: white;
+  border: solid 1px #ddd;
+  border-radius: 6px;
+  padding: 11px;
+}
+
